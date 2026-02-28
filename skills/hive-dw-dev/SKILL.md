@@ -1,6 +1,6 @@
 ---
 name: hive-dw-dev
-description: Hive 离线数仓开发 Skill，包含 DWD/DWM 公共层与 DM/APP 应用层的开发规范，以及辅助脚本工具。    
+description: Hive 离线数仓开发 Skill，包含 DWD/DWM 公共层与 DM/APP 应用层的开发规范，以及辅助脚本工具。    111
 ---
 
 # Hive 离线数仓开发 Skill
