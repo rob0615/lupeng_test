@@ -13,7 +13,7 @@ def main():
     now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     
     print("=" * 50)
-    print("🚀 出发咯～")
+    print("🚀 出发咯。。。。。。")
     print("=" * 50)
     print(f"⏰ 当前时间: {now}")
     print(f"🐍 Python 版本: {sys.version.split()[0]}")
