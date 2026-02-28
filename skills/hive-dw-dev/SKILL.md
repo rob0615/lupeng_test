@@ -1,17 +1,18 @@
 ---
 name: hive-dw-dev
-description: Hive 离线数仓开发 Skill，包含 DWD/DWM 公共层与 DM/APP 应用层的开发规范，以及辅助脚本工具。
+description: Hive 离线数仓开发 Skill，包含 ODS 原始层、DWD/DWM 公共层与 DM/APP 应用层的开发规范，以及辅助脚本工具。
 ---
 
 # Hive 离线数仓开发 Skill
 
 ## 概述
 
-本 Skill 用于指导 Hive 离线数据仓库的开发工作，涵盖从公共数仓层（DWD/DWM）到应用数仓层（DM/APP）的完整开发规范与最佳实践。
+本 Skill 用于指导 Hive 离线数据仓库的开发工作，涵盖从原始数据层（ODS）、公共数仓层（DWD/DWM）到应用数仓层（DM/APP）的完整开发规范与最佳实践。
 
 ## 适用场景
 
-- 新建 Hive 数仓表（DWD / DWM / DM / APP 各层）
+- 新建 Hive 数仓表（ODS / DWD / DWM / DM / APP 各层）
+- 数据源接入与 ODS 层数据同步
 - 编写 HiveSQL ETL 脚本
 - 数仓分层建模与表命名规范咨询
 - 数据质量校验与监控方案设计
@@ -25,6 +26,7 @@ description: Hive 离线数仓开发 Skill，包含 DWD/DWM 公共层与 DM/APP 
 
 | 层级 | 参考文档 | 说明 |
 |------|----------|------|
+| ODS | [ods_development_rules.md](references/ods_development_rules.md) | 原始数据层开发规则 |
 | DWD / DWM | [dwd_dwm_development_rules.md](references/dwd_dwm_development_rules.md) | 公共数仓层开发规则 |
 | DM / APP | [dm_app_development_rules.md](references/dm_app_development_rules.md) | 应用数仓层开发规则 |
 
@@ -117,6 +119,7 @@ python scripts/start.py
 
 ## References
 
+- [ODS 原始数据层开发规则](references/ods_development_rules.md)
 - [DWD/DWM 公共数仓开发规则](references/dwd_dwm_development_rules.md)
 - [DM/APP 应用层数仓开发规则](references/dm_app_development_rules.md)
 
